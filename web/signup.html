@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <link rel="stylesheet" href="signup.css">
+        <script src="Signup.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <div class="wraper">
+             <form action="Signup.jsp" method="post" onsubmit="return validation()">
+                <h1>Signup</h1>
+                <div class="input_box">
+                    <input id="Name" type="text" placeholder="Name" required="required" name="name">
+                    <p id="nameError" class="error"></p>
+                </div>
+                <div class="input_box">
+                    <input id="PhoneNumber" type="text" placeholder="Mob Number" required="required" name="PhNumber">
+                    <p id="PhoneError" class="error"></p>
+                </div>
+                 <br>
+                <div>
+                    <ul class="list">
+                    <li><input id="day" class="li" type="text" placeholder="day" required="required" name="day"></li>
+     
+                    <li><input id="month" class="li" type="text" placeholder="Month" required="required" name="month"></li>
+                    
+                    <li><input id="year" class="li" type="text" placeholder="Year" required="required" name="year"></li>
+                    </ul>
+                    <p id="dateError" class="error"></p>
+                    
+                </div>
+               
+                <div class="input_box">
+                    <input id="Email" type="email" placeholder="abc@gmail.com" required="required" name="email">
+                    <p id="emailrror" class="error"></p>
+                </div>
+                <div class="input_box">
+                    <input id="Password" type="password" placeholder="Password" required="required" name="password">
+                    <p id="passwordError" class="error"></p>
+                </div>
+                <button type="submit" class="btn">Signup</button>
+                <div class="register_link">
+                    <p>I have an account<a href="login.html">Login</a></p>
+                </div>
+            </form>
+        </div>
+   
+    </body>
+</html>

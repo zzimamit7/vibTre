@@ -1,0 +1,128 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 04-Feb-2024, 6:26:11 pm
+    Author     : rahul
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('background_image.png');
+    background-size: cover;
+    background-position: center;
+
+}.wraper{
+    width: 420px;
+    /*background: purple;*/
+    color: #fff;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 12px;
+    padding: 30px 40px;
+    
+}
+.wraper h1{
+    font-size: 26px;
+    text-align: center;
+    
+}
+.wraper .input_box{
+    position: relative;
+    width: 100%;
+    height:50px;
+
+    margin: 30px 0;
+}
+.input_box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 2px 4px 10px 0px;
+}
+.input_box input::placeholder{
+    color: #fff;
+    padding: 15px;
+}
+.wraper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    
+    
+}
+.wraper .register_link{
+    font-size: 14.5px;
+    text-align: center;
+    margin:20px 0px 15px ;
+}
+.register_link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register_link p a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}
+.list{
+     margin-right: 100px;
+    display: flex;
+    gap: 0.5rem;
+    text-align: center;
+    margin-left: 10px;
+   
+    
+}
+.li{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 2px 4px 10px 0px;
+}
+.input_box input::placeholder{
+    color: #fff;
+    padding: 15px;
+}
+.li::placeholder{
+     color: #fff;
+    padding: 15px;
+}
+.error{
+    color: orange;
+    text-align: left;
+    margin: 0px;
+}
