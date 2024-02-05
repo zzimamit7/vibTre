@@ -7,14 +7,14 @@
 
 # How to Run the application Locally
 Steps
-1.Install Apache Netbeans.
-2.Create a package into Neatbeans-> Intern_project
-3.Create all HTML, CSS, Javascript, JSP file with proper name that is mentioned in gitub repo.
-4.copy all the code from that file and paste in netbeans file(HTML, CSS, Javascript, JSP)
-5.create java file in source package with proper name that is mentioned in src->java in github.
-6.copy all code from github repo and paste in java file that is created in netbens.
-7.for database:-
-1.Install MySQL workbench
+1. Install Apache Netbeans.
+2. Create a package into Neatbeans-> Intern_project
+3. Create all HTML, CSS, Javascript, JSP file with proper name that is mentioned in gitub repo.
+4. copy all the code from that file and paste in netbeans file(HTML, CSS, Javascript, JSP)
+5. create java file in source package with proper name that is mentioned in src->java in github.
+6. copy all code from github repo and paste in java file that is created in netbens.
+7. for database:-
+1. Install MySQL workbench
 create database Vibtre;
 use Vibtre;
 create table Vibtre(
@@ -33,7 +33,7 @@ select * from Vibtre;
 
 2. write this command
 
-8.Save all the code and run the package.
+8. Save all the code and run the package.
 Flow
 package(Intern_project)-> Web pages(All HTML,CSS,Javascript,JSP)-> Source packege(Java file)-> MySQL command-> Save code-> Run code.
 
